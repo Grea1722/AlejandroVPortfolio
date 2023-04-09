@@ -1,0 +1,11 @@
+export { default as AntDesign } from "./AntDesign.png";
+export { default as css } from "./css.png";
+export { default as Firebase } from "./Firebase.png";
+export { default as html } from "./html.png";
+export { default as js } from "./js.png";
+export { default as MaterilUi } from "./MaterialUi.png";
+export { default as MySql } from "./mysql.png";
+export { default as NodeJs } from "./nodejs.png";
+export { default as React } from "./React.png";
+export { default as Redux } from "./Redux.png";
+export { default as csharp } from "./csharp.png";
