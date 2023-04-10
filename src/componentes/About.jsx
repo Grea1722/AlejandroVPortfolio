@@ -10,7 +10,7 @@ import {
   css,
   html,
   js,
-} from "../assets/tecnologias";
+} from "../assets";
 
 export const About = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 
 export const Card = ({ trabajo }) => {
-  const trabajoImg = `src/assets/trabajos/${trabajo.id}.png`;
+  const trabajoImg = `src/assets/${trabajo.id}.png`;
   const tecnologias = trabajo.tecnologias.map(
-    (tecnologia) => `src/assets/tecnologias/${tecnologia}.png`
+    (tecnologia) => `src/assets/${tecnologia}.png`
   );
 
   return (
