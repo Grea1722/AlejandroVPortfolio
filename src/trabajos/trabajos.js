@@ -4,10 +4,10 @@ export const trabajos = [
     nombre: "Transport Managment System",
     informacion:
       "La funcion de esta aplicacion es la gestion de transporte, mi trabajo consistio en la actualizacion de viejos modulos e implementacion de nuevos modulos y funciones",
-    tecnologias: ["React", "nodeJs", "AntDesign", "SailsJs", "mysql"],
+    tecnologias: ["React", "NodeJs", "AntDesign", "SailsJs", "MySql"],
   },
   {
-    id: "g-clients",
+    id: "Gclients",
     nombre: "G-Clients",
     informacion:
       "Aplicacion creada para el envio de contenedores a gran escala, mi trabajo consistio en dar al cliente las herramientas para crear una carta de instrucciones, ver las cotizaciones creadas por el personal de G-Global, de esta forma dotando al usuario la capacidad de aceptar o rechazar la cotizacion y ver o descargar las notificaciones de arrivo",

@@ -52,7 +52,7 @@ body {
 }
 
 .home {
-  background-image: url("../src/assets/pc.jpg");
+  background-image: url("../assets/pc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -156,7 +156,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-image: url("../src/assets/back2.jpg");
+  background-image: url("../assets/back2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   animation: fadeIn;

@@ -1,7 +1,7 @@
 import pc from "../assets/Myproject.png";
 import {
   Firebase,
-  MaterilUi,
+  MaterialUi,
   MySql,
   NodeJs,
   React,
@@ -49,7 +49,7 @@ export const About = () => {
           <p>ReactJs</p>
         </div>
         <div className="tech-card">
-          <img src={MaterilUi} alt="MaterialUi logo" />
+          <img src={MaterialUi} alt="MaterialUi logo" />
           <p>MaterialUi</p>
         </div>
         <div className="tech-card">

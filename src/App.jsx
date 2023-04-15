@@ -3,21 +3,21 @@ import "./styles/Medias.css";
 import { About } from "./componentes/About";
 import { Home } from "./componentes/Home";
 import { Navbar } from "./componentes/Navbar";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import { Trabajos } from "./componentes/Trabajos";
 import { Contact } from "./componentes/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
-        <Route exact path="/" Component={Home} />
-        <Route path="/about" Component={About} />
-        <Route path="/works" Component={Trabajos} />
-        <Route path="/contact" Component={Contact} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/works" element={<Trabajos />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
