@@ -1,38 +1,4 @@
-import {
-  abiti,
-  Gclients,
-  tms,
-  giffapp,
-  React,
-  NodeJs,
-  AntDesign,
-  SailsJs,
-  MySql,
-  html,
-  MaterialUi,
-  Firebase,
-  Redux,
-  css,
-  js,
-} from "../assets";
-
-const imagenes = {
-  tms,
-  abiti,
-  Gclients,
-  giffapp,
-  NodeJs,
-  AntDesign,
-  SailsJs,
-  MySql,
-  React,
-  html,
-  MaterialUi,
-  Firebase,
-  Redux,
-  css,
-  js,
-};
+import { imagenes } from "../shared/images";
 
 export const Card = ({ trabajo }) => {
   const trabajoImg = imagenes[trabajo.id];

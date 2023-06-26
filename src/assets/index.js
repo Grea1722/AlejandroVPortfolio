@@ -17,3 +17,4 @@ export { default as Gclients } from "./g-clients.png";
 export { default as tms } from "./tms.png";
 export { default as giffapp } from "./giffapp.png";
 export { default as SailsJs } from "./SailsJs.png";
+export { default as guardianesElementales } from "./guardianesElementales.png";

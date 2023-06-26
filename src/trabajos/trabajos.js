@@ -1,5 +1,12 @@
 export const trabajos = [
   {
+    id: "guardianesElementales",
+    nombre: "Guardianes Elementales",
+    informacion:
+      "Pagina desarrollada para mostrar informacion y personajes de la saga de libros Guardianes Elementales, su principal funcion radica en mostrar informacion sobre los personajes y donde conseguir la novela",
+    tecnologias: ["React", "css", "Firebase"],
+  },
+  {
     id: "tms",
     nombre: "Transport Managment System",
     informacion:
